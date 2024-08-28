@@ -1,5 +1,5 @@
 # connect
-template for connect rpc
+template for [connect rpc](https://connectrpc.com/docs/go/getting-started/)
 
 ## install related cli tool
 
