@@ -1,0 +1,7 @@
+bind_port: 8080
+log:
+    file_name: server.log
+    max_size: 10
+    max_backups: 7
+    max_keep_days: 30
+    compress: true

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package ping.v1;
+
+
+import "ping/v1/ping.proto";
+
+option go_package = "github.com/tpl-x/conec/pkg/ping/v1;pingv1";
+
+service PingService {
+  // simple ping rpc
+  rpc Ping(PingRequest) returns (PongResponse);
+}
