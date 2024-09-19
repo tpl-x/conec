@@ -1,0 +1,24 @@
+name: build
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - v*
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: write
+jobs:
+  build:
+      runs-on: ubuntu-latest
+      steps:
+        # Run `git checkout`
+        - uses: actions/checkout@v2
+        # Install the `buf` CLI
+        - uses: bufbuild/buf-setup-action@v1.42.0
+        # Install `protoc`
+        - uses: arduino/setup-protoc@v1
