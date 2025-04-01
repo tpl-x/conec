@@ -1,9 +1,8 @@
 module github.com/tpl-x/conec
 
 go 1.23.0
-
 require (
-	connectrpc.com/connect v1.16.2
+	connectrpc.com/connect v1.18.1
 	github.com/google/wire v0.6.0
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.23.0
