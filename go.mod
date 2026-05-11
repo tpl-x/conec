@@ -5,7 +5,7 @@ go 1.24.0
 toolchain go1.24.1
 
 require (
-	connectrpc.com/connect v1.19.1
+	connectrpc.com/connect v1.19.2
 	github.com/google/wire v0.7.0
 	go.uber.org/zap v1.27.0
 	golang.org/x/net v0.44.0
